@@ -1,0 +1,67 @@
+h1{
+    font-size: 40px;
+    border: 1px solid #000;
+    width: 620px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.section h1, h3{
+    color: red;
+}
+
+.italico{
+    background-color: yellow;
+}
+
+.italico li:nth-child(even) {
+    color: green;
+}
+
+.italico li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+.italico{
+    font-weight: bold;
+}
+
+.programacao li:nth-child(1){
+    color: blue;
+}
+
+.programacao li:nth-child(2){
+    color: blue;
+    background: rosybrown;
+    width: 40px;
+}
+
+.programacao li:nth-child(3){
+    color: blue;
+}
+
+.links:hover{
+    font-weight: bold;
+}
+
+.links li a[href*="stackoverflow"]{
+    color: orange;
+}
+
+.links li a[href*="w3schools"]{
+    color: green;
+}
+
+.links li a[href*="mozilla"]{
+    color: black;
+}
+
+.links li a[href*="devdocs"]{
+    color: yellow;
+}
+
+.links li a[href*="trybe"]{
+    color: green;
+}
