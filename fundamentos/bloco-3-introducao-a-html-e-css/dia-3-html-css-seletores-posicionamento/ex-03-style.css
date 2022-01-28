@@ -1,0 +1,27 @@
+h1,p{
+    text-align: center;
+}
+
+.list li a:hover{
+    color:crimson;
+}
+
+.list .list-1:hover{
+    background-color:turquoise;
+    width: 110px;
+}
+
+.list .list-2:hover{
+    background-color:turquoise;
+    width: 30px;
+}
+
+.list .list-3:hover{
+    background-color:turquoise;
+    width: 80px;
+}
+
+ul, ol{
+    list-style: none
+}
+
