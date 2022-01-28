@@ -1,0 +1,16 @@
+.menu {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  margin-right: 30px;
+}
+
+.links div {
+  margin: 10px;
+}

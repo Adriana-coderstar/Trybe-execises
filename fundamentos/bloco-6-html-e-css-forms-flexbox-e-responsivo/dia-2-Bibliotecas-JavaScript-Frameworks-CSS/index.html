@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  
+  <title>Document</title>
+</head>
+<body>
+
+  <main>
+    <header><h1 class="titlle">Currículo</h1></header>
+    <form id="form-cv">
+      <fieldset>
+          <div class= "input-group mb-3">
+            <!-- campo nome -->
+            <label for="name">Nome: </label>
+            <input class="form-control" class="name" type="text" name="name" placeholder="Digite seu nome" maxlength="40" required > <br>
+          </div>
+
+          <div class= "input-group mb-3" class="input-container  class= g-col-6">
+            <!-- campo e-mail -->
+            <label for="email">Endereço de e-mail: </label>
+            <input class="form-control" class="input-email"  type="email" name="email" placeholder="Digite seu e-mail" maxlength="50" required ><br>
+          </div>
+
+          <div class= "input-group mb-3" class="input-container">
+            <!-- campo CPF -->
+            <label for="number">CPF: </label>
+            <input class="form-control" class="numbers-cpf" type="number" name="numeros" placeholder="Digite seu CPF" maxlength="11" required > <br>
+          </div>
+
+          <div class= "input-group mb-3" class="input-container">
+            <!-- campo endereço -->
+            <label for="endereço">Endereço: </label>
+            <input class="form-control" class="input-endereco" type="text" name="endereço" placeholder="Digite seu endereço" maxlength="200" required ><br>
+          </div>
+
+          <div class= "input-group mb-3" class="input-container">
+            <!-- campo cidade -->
+            <label for="cidade">Cidade: </label>
+            <input class="form-control" class="input-cidade" type="text" name="cidade"  maxlength="28" required><br>
+          </div>
+
+          <div class= "input-group mb-3" class="input-container"> 
+            <!-- campo para selecionar estado em uma lista -->
+            <label for="estado">Estado:</label>
+            <select class="form-select" name="" id="estado" required>
+              <option selected></option>
+            </select> 
+          </div>
+            
+          <div class="input-container">
+            <label for="">Tipo do imovel: </label>
+              <div class="form-check">
+                <label for="casa">Casa</label>
+                <input class="form-check-input"  id="casa" type="radio" name="casa" value="casa" required>
+                <div class="input-container">
+                  <label for="apartamento">Apartamento</label>
+                  <input class="form-check-input" id='apartamento' type="radio" name="apartamento" value="apartamento" required>
+                </div>
+            </div>
+          </div>
+
+            </fieldset>
+
+            <fieldset>
+              <form>
+                <div class= "input-group mb-3" id="input-container  class= g-col-6">
+                  <h4 class="title-h4">Resumo Curricular</h4>
+                  <label for="resumo"> </label>
+                  <textarea  class="form-control input-textarea  estiliza-textearea" name="resumo" id="resumo-curriculo" cols="60" rows="8" maxlength="1000" required></textarea>
+                </div>
+
+                <div class= "input-group mb-3" id="input-container">
+                    <label for="cargo">Cargo: </label>
+                    <input class="form-control  input-textarea" type="text" name="cargo" maxlength="40" required>
+                </div>
+
+                <div class= "input-group mb-3" id="input-container">
+                  <h4 class="title-h4">Descrição do cargo</h4>
+                    <label for="descrição"></label>
+                    <textarea class="form-control  input-textarea  estiliza-textearea" name="descrição" id="descrição-cargo" cols="60" rows="8" required></textarea>
+                </div>
+
+                <div class= "input-group mb-3" id="input-container  class= g-col-6" > 
+                  <fieldset>
+                    <label for="data">Data: </label>
+                      <input class="form-control" type="text" name="data" id="date" required> 
+                        <div class= "input-group mb-3">
+                          <button class="btn btn-success"  type="submit" class="submit-button">Enviar</button>
+                          <button class="clear-button  btn btn-secondary" type="button">Limpar</button>
+                        </div>              
+                    
+                         
+                  </fieldset>
+
+                </div>
+              </form>
+            </fieldset>
+    </form>
+  </main>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="jquery-3.6.0.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
