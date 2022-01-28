@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Document</title>
+</head>
+<body>
+
+  <main>
+    <header><h1>Currículo</h1></header>
+    <form id="form-cv">
+      <fieldset>
+          <div class="input-container" >
+            <!-- campo nome -->
+            <label for="name">Nome: </label>
+            <input class="name" type="text" name="name" placeholder="Digite seu nome" maxlength="40" required > <br>
+            </div>
+
+            <div class="input-container">
+            <!-- campo e-mail -->
+            <label for="email">Endereço de e-mail: </label>
+            <input class="input-email"  type="email" name="email" placeholder="Digite seu e-mail" maxlength="50" required ><br>
+            </div>
+
+            <div class="input-container">
+            <!-- campo CPF -->
+            <label for="number">CPF: </label>
+            <input class="numbers-cpf" type="number" name="numeros" placeholder="Digite seu CPF" maxlength="11" required > <br>
+            </div>
+
+            <div class="input-container">
+            <!-- campo endereço -->
+            <label for="endereço">Endereço: </label>
+            <input class="input-endereco" type="text" name="endereço" placeholder="Digite seu endereço" maxlength="200" required ><br>
+             </div>
+
+             <div class="input-container">
+            <!-- campo cidade -->
+            <label for="cidade">Cidade: </label>
+            <input class="input-cidade" type="text" name="cidade"  maxlength="28" required><br>
+            </div>
+
+            <div class="input-container"> 
+            <!-- campo para selecionar estado em uma lista -->
+            <label for="estado">Estado:</label>
+            <select name="" id="estado" required>
+            </select> 
+            </div>
+            
+            <div class="input-container">
+            <label for="">Tipo do imovel: </label>
+
+            <label for="casa">Casa</label>
+            <input id="casa" type="radio" name="casa" value="casa" required>
+
+            <label for="apartamento">Apartamento</label>
+            <input id='apartamento' type="radio" name="apartamento" value="apartamento" required>
+            </div>
+
+            </fieldset>
+
+            <fieldset>
+              <form>
+                <div id="input-container">
+                  <h1>Resumo Curricular</h1>
+                  <label for="resumo"> </label>
+                  <textarea name="resumo" id="resumo-curriculo" cols="60" rows="8" maxlength="1000" required></textarea>
+                  </div>
+
+                  <div id="input-container">
+                    <label for="cargo">Cargo: </label>
+                    <input type="text" name="cargo" maxlength="40" required>
+                  </div>
+
+                  <div id="input-container">
+                    <h1>Descrição do cargo</h1>
+                    <label for="descrição"></label>
+                   <textarea name="descrição" id="descrição-cargo" cols="60" rows="8" required></textarea>
+                   </div>
+
+                   <div id="input-container" > 
+                     <fieldset>
+                       <label for="data">Data: </label>
+                         <input type="text" name="data" id="date" required> 
+                         <div>
+                          <button type="submit" class="submit-button">Enviar</button>
+                          <button class="clear-button" type="button">Limpar</button>
+                        </div>              
+                    
+                         
+                    </fieldset>
+
+                   </div>
+              </form>
+            </fieldset>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
