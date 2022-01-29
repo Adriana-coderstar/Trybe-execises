@@ -19,3 +19,18 @@ INSERT INTO BoxOffice
 
 VALUES
   (10, 6.8, 450000000, 370000000);
+
+-- 3) O diretor do filme "Procurando Nemo" está incorreto, na verdade ele foi dirigido por Andrew Staton. Corrija esse dado utilizando o UPDATE .
+
+UPDATE Movies
+SET director = 'Andrew Staton'
+WHERE title = 'Procurando Nemo';
+
+-- 4) O título do filme "Ratatouille" esta escrito de forma incorreta na tabela Movies , além disso, o filme foi lançado em 2007 e não em 2010. Corrija esses dados utilizando o UPDATE .
+
+UPDATE Movies
+
+SET 
+  title = 'Ratatouille', year = 2007
+WHERE 
+  id = 3;
