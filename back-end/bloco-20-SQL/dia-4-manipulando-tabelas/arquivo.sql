@@ -58,3 +58,11 @@ WHERE movie_id = 12;
 
 DELETE FROM Movies
 WHERE id = 12;
+
+-- 7) Exclua da tabela Movies todos os filmes dirigidos por "Andrew Staton"
+
+DELETE FROM BoxOffice
+WHERE movie_id IN(2, 10);
+
+DELETE FROM Movies
+WHERE director = 'Andrew Staton';
