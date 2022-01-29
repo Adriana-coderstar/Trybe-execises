@@ -18,4 +18,4 @@ INSERT INTO BoxOffice
   (movie_id,rating, domestic_sales, international_sales)
 
 VALUES
-  (10, 6.8, 450000000, 370000000)
+  (10, 6.8, 450000000, 370000000);
