@@ -15,6 +15,7 @@ SELECT CHAR_LENGTH('Uma frase qualquer');
 -- 4) Extraia e retorne a palavra "JavaScript" da frase 'A linguagem JavaScript está entre as mais usadas' 
 SELECT SUBSTRING('A linguagem JavaScript está entre as mais usadas', 13, 10);
 
+
 -- 5) 5. Por fim, padronize a string 'RUA NORTE 1500, SÃO PAULO, BRASIL' para que suas informações estejam todas em caixa baixa. Solução:
 
 SELECT LCASE('RUA NORTE 1500, SÃO PAULO, BRASIL');
