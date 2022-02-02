@@ -13,3 +13,5 @@ SELECT
       SUM(length) AS 'Tempo de Exibição Total',
       COUNT(*) AS 'Filmes Registrados'
 FROM sakila.film;
+
+
