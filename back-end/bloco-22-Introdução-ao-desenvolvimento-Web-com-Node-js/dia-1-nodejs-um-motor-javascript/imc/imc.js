@@ -1,10 +1,16 @@
+const readline = require('readline-sync');
 
-function calculoImc(peso, alt) {
-  const imc = (peso / (alt * alt)).toFixed(2);
 
-  console.log(`Peso: ${peso} Altura ${alt}`);
 
+function calculoImc() {
+  const peso = readline.questionFloat('Qual seu peso? ');
+  const altura = readline.questionFloat('Qual seu altura? ');
+  
+  console.log(`Peso: ${peso} - Altura ${(altura)}`);
+
+  const imc = (peso / (altura * altura)).toFixed(2);
+  
   return console.log(`Imc ${imc}`);
 }
 
-console.log(calculoImc(83, 1.65));
+calculoImc();
