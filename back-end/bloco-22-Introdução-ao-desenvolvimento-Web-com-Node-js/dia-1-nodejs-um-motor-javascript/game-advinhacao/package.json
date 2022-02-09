@@ -1,0 +1,15 @@
+{
+  "name": "game-advinhacao",
+  "version": "1.0.0",
+  "description": "Jogo de adivinhação",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sorteio": "node index.js"
+  },
+  "author": "Adriana Martins",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
