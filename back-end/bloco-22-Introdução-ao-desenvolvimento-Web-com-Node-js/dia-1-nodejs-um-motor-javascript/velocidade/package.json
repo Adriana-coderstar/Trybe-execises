@@ -1,0 +1,12 @@
+{
+  "name": "velocidade",
+  "version": "1.0.0",
+  "description": "\"Calcular a velocidade media de um carro numa corrida\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "velocidade": "node velocidade.js"
+  },
+  "author": "Adriana Martins",
+  "license": "ISC"
+}
